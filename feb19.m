@@ -105,3 +105,17 @@ format shortEng     % to make decimal more shorter
 
 format longEng     % to make decimal more longer
 8/3
+
+
+%% Algebra
+
+syms x y
+
+z = y == 3*x^2 + 2*x + 1      %% double = to make the y visible
+
+pretty(z)     % use pretty to have good list of equation
+
+format short
+
+
+%% Square Root
