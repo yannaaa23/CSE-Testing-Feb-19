@@ -1,4 +1,5 @@
 % Testing (Feb 19, 2024)
+% clc / clear all to erase
 
 
 %% Variables
@@ -20,11 +21,6 @@ h = 6 / 2 * (1 + 2)
 
 x = [0:0.1:10];
 plot(x,sin(x));
-plot3(xt,yt,zt);
-axis equal;
-xlable('x(t)');
-ylable('y(t)');
-zlable('z(t)');
 
 
 %% Exponents
@@ -46,11 +42,50 @@ n = 3^-2
 
 o =  2.5*10^3
 
-p = 2.5*10^-3\
+p = 2.5*10^-3
+
+o1 = 2.5e+3
+p1 = 2.5e-3
 
 
+%% pi
+
+pi
+
+q = 2*pi
 
 
+%% Fraction
+
+sym(1/4)
+
+r = sym(1/2 + 1/4) % sym to make it fraction
+
+pretty(r)          % pretty to make proper fraction
 
 
+%% Decimal to Fraction
+
+s = 2/5 + 5
+
+pretty(sym(s))  
+
+
+%% Fraction to Decimal
+
+t = sym(4.25 + 11/2)
+double(t)       % double to make the decimal - fraction
+
+
+%% Variable Override
+
+x = 3
+x = x + 3
+
+
+%% Format Long & Format Short
+
+format long    % format long to make the decimal long
+1051/12
+pi
 
