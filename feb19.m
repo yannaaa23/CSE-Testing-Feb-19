@@ -2,18 +2,18 @@
 
 
 %% Variables
-a = 3;
-b = 15;
-c = a + b;
+a = 3
+b = 15
+c = a + b
 
 
 %% Arithmetic
-d = a- b;
-e = a * b;
-f = c / d;
+d = a- b
+e = a * b
+f = c / d
 
-g = (5-3)*(6/2);
-h = 6 / 2 * (1 + 2);
+g = (5-3)*(6/2)
+h = 6 / 2 * (1 + 2)
 
 
 %% Plot
@@ -43,4 +43,12 @@ n = 3^-2
 
 
 %% Scientific Notation
+
+o =  2.5*10^3
+
+p = 2.5*10^-3
+
+
+
+
 
