@@ -129,7 +129,9 @@ sqrt(4)
 nthroot(8,3)
 
 
-%%
+%% sym(sqrt())
+
+sym(sqrt(40))
 
 
 
