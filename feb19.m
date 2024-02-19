@@ -8,8 +8,12 @@ c = a + b
 
 
 %% Arithmetic
+d = a- b
+e = a * b
+f = c / d
 
+g = (5-3)*(6/2)
+h = 6 / 2 * (1 + 2)
 
-
-
-
+x = [0:0.1:10]
+plot(x,sin(x))
