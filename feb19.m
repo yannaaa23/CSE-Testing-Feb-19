@@ -137,7 +137,23 @@ pretty(a1)
 
 %% Trigonometry
 
-x = sin(90)
-y = sind(90)
+x = sin(1.5708)
+y = sind(90)          % sin decimals in degrees
 z = sin(pi/2)
+
+
+%% Inverse Trigonometry
+
+theta = asin(1)      % in decimal
+theta1 = asind(1)    % asind to make it in degree
+
+
+%% Factoring
+
+syms x y
+
+[x y] = solve('3*x-y=2','x+y=1')
+
+
+
 
