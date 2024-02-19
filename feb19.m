@@ -119,3 +119,18 @@ format short
 
 
 %% Square Root
+
+format short
+sqrt(4)
+
+
+%% nth Root
+
+nthroot(8,3)
+
+
+%%
+
+
+
+
