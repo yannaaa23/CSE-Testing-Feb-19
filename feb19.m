@@ -83,9 +83,25 @@ x = 3
 x = x + 3
 
 
-%% Format Long & Format Short
+%% Format Long
 
 format long    % format long to make the decimal long
 1051/12
 pi
 
+
+%% Format Short
+format short
+pi
+
+
+%% Format ShortEng
+
+format longEng
+8/3
+
+
+%% Format LongEng
+
+format longEng
+8/3
