@@ -15,6 +15,7 @@ f = c / d;
 g = (5-3)*(6/2);
 h = 6 / 2 * (1 + 2);
 
+
 %% Plot
 
 x = [0:0.1:10];
@@ -24,6 +25,7 @@ axis equal;
 xlable('x(t)');
 ylable('y(t)');
 zlable('z(t)');
+
 
 %% Exponents
 
@@ -38,6 +40,7 @@ l = (-2)^3
 m =  4^1/2
 
 n = 3^-2
+
 
 %% Scientific Notation
 
