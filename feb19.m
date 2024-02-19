@@ -97,11 +97,11 @@ pi
 
 %% Format ShortEng
 
-format longEng
+format shortEng     % to make decimal more shorter
 8/3
 
 
 %% Format LongEng
 
-format longEng
+format longEng     % to make decimal more longer
 8/3
