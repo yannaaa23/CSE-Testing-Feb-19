@@ -131,7 +131,13 @@ nthroot(8,3)
 
 %% sym(sqrt())
 
-sym(sqrt(40))
+a1 = sym(sqrt(40))
+pretty(a1)
 
 
+%% Trigonometry
+
+x = sin(90)
+y = sind(90)
+z = sin(pi/2)
 
