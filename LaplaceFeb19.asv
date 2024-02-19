@@ -31,11 +31,5 @@ pretty(f5)
 
 %% Transfer Function
 
-g1 = [1];
-g2 = [3 2 2];
-g3 = tf(g1, g2)
-
-Y = [4 1];
-X = [12 8 1];
-G = tf(Y,  X)
-
+Y = [4 0];
+X = [12 8 1];G =
